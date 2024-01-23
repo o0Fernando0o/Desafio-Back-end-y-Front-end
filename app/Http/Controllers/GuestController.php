@@ -73,7 +73,7 @@ class GuestController extends Controller
     {
         $guest = Guest::find($id);
 
-        return view('guests.edit', compact('guest'));
+        return view('guest.edit', compact('guest'));
     }
 
     /**
@@ -89,7 +89,7 @@ class GuestController extends Controller
 
         $guest->update($request->all());
 
-        return redirect()->route('guest.index')
+        return redirect()->route('guests.index')
             ->with('success', 'Guest updated successfully');
     }
 

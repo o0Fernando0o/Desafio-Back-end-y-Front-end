@@ -27,11 +27,10 @@ Sigue los siguientes pasos para configurar y ejecutar el proyecto:
 ## npm install
 Este comando nos sirve para instalar paquetes. Los paquetes se descargarán y se meterán automáticamente en una carpeta llamada node_modules.
 
-##npm run dev
+## npm run dev
 Compila los Recursos de Frontend
-Configura la Base de Datos MySQL
 
-##Crea una base de datos en tu servidor MySQL.
+## Crea una base de datos en tu servidor MySQL.
 Copia el archivo .env.example y renómbralo a .env.
 Abre el archivo .env y configura las variables de entorno relacionadas con la base de datos, como DB_DATABASE, DB_USERNAME y DB_PASSWORD
 
